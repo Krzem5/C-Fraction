@@ -18,6 +18,7 @@ void init_fraction(uint64_t w,int64_t n,uint64_t dn,fraction_t* o){
 	o->w=w;
 	o->n=n;
 	o->dn=dn;
+	shorten_fraction(o);
 }
 
 
