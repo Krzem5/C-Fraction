@@ -4,7 +4,6 @@
 
 
 
-
 typedef struct __FRACTION{
 	uint64_t w;
 	int64_t n;
